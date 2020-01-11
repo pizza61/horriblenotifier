@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HorribleNotifier Configuration</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="app">
+            <header>
+                <div class="title">HorribleNotifier</div>
+            </header>
+            <div class="section">
+                <div class="illegal" v-if="illegal.length > 0">{{ illegal }}</div>
+                <div class="section-title">Settings</div>
+                <div class="settings" v-if="config">
+                    <set :option="{ name: 'Quality', type: 'choose', options: ['SD', '720', '1080'] }" :value="config" :key="0"></set>
+                    <set :option="{ name: 'Refresh every (in minutes)', type: 'number', value: config.Refresh }" :value="config" :key="1"></set>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-title section-special">
+                    <span>Notification settings</span>
+                    <div class="option-button only" 
+                        :class="{ active: config.SubscribedAll }"
+                        @click="config.SubscribedAll = !config.SubscribedAll">
+                    Select all
+                    </div>
+                </div>
+                <div class="lds-dual-ring" v-if="!schedule"></div>
+                <div class="subs">
+                    <anime v-for="(pos, i) in schedule" :key="i" :anime="pos" :class="{ disabled: config.SubscribedAll }"></anime>
+                </div>
+            </div>
+            <footer>Version 0.1<br> &copy; pizza61 *
+                <a href="https://github.com/pizza61/HorribleNotifier">GitHub repository</a>
+                * Data from
+                <a href="https://horriblesubs.info">HorribleSubs</a>
+                
+            </footer>
+        </div>
+        <script src="https://unpkg.com/vue@2.6.11/dist/vue.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

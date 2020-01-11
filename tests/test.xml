@@ -1,0 +1,61 @@
+<rss version="2.0">
+    <channel>
+        <title>HorribleNotifier RSS</title>
+        <description>RSS feed test</description>
+        <link>http://localhost:3939</link>
+        <item>
+            <title>[HorribleSubs] Toaru Kagaku no Railgun T - 1 [1080p].mkv</title>
+            <link>http://localhost:3939</link>
+            <guid isPermaLink="false">INDEX4</guid>
+            <pubDate>Sun, 29 Dec 2019 17:00:25 +0000</pubDate>
+        </item>
+        <item>
+            <title>[HorribleSubs] Magia Record - 2 [1080p].mkv</title>
+            <link>http://localhost:3939</link>
+            <guid isPermaLink="false">INDEX3</guid>
+            <pubDate>Sun, 29 Dec 2019 17:00:25 +0000</pubDate>
+        </item>
+        <item>
+            <title>[HorribleSubs] Toaru Kagaku no Railgun T - 13 [1080p].mkv</title>
+            <link>http://localhost:3939</link>
+            <guid isPermaLink="false">INDEX41</guid>
+            <pubDate>Sun, 29 Dec 2019 17:00:25 +0000</pubDate>
+        </item>
+        <item>
+            <title>[HorribleSubs] Magia Record - 11 [1080p].mkv</title>
+            <link>http://localhost:3939</link>
+            <guid isPermaLink="false">INDEX33</guid>
+            <pubDate>Sun, 29 Dec 2019 17:00:25 +0000</pubDate>
+        </item>
+        <item>
+            <title>[HorribleSubs] Nekopara - 3 [1080p].mkv</title>
+            <link>http://localhost:3939</link>
+            <guid isPermaLink="false">INDEX2</guid>
+            <pubDate>Sun, 29 Dec 2019 17:00:25 +0000</pubDate>
+        </item>
+<item>
+            <title>[HorribleSubs] Magia Record - 80 [1080p].mkv</title>
+            <link>http://localhost:3939</link>
+            <guid isPermaLink="false">INDEX1</guid>
+            <pubDate>Sun, 29 Dec 2019 17:00:25 +0000</pubDate>
+        </item>
+        <item>
+            <title>[HorribleSubs] Toaru Kagaku no Railgun T - 333 [1080p].mkv</title>
+            <link>http://localhost:3939</link>
+            <guid isPermaLink="false">INDEX0</guid>
+            <pubDate>Sun, 29 Dec 2019 17:00:25 +0000</pubDate>
+        </item>
+        <item>
+            <title>[HorribleSubs] Magia Record - 1 [1080p].mkv</title>
+            <link>http://localhost:3939</link>
+            <guid isPermaLink="false">INDEX99</guid>
+            <pubDate>Sun, 29 Dec 2019 17:00:25 +0000</pubDate>
+        </item>
+        <item>
+            <title>[HorribleSubs] Nekopara - 3 [1080p].mkv</title>
+            <link>http://localhost:3939</link>
+            <guid isPermaLink="false">INDEX98</guid>
+            <pubDate>Sun, 29 Dec 2019 17:00:25 +0000</pubDate>
+        </item>
+    </channel>
+</rss>
