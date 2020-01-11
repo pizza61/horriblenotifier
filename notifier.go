@@ -2,7 +2,6 @@ package main
 
 import (
 	"log"
-	"os"
 	"regexp"
 	"time"
 
@@ -22,9 +21,9 @@ func (n *Notificator) Notificator() {
 		for {
 			// get current config because it could have changed
 			config = n.GetConfig()
-			file, _ := os.Open("tests/test.xml")
-			feed, err := fp.Parse(file)
-			//feed, err := fp.ParseURL("http://www.horriblesubs.info/rss.php?res=" + config.Quality)
+			//file, _ := os.Open("tests/test.xml")
+			//feed, err := fp.Parse(file)
+			feed, err := fp.ParseURL("http://www.horriblesubs.info/rss.php?res=" + config.Quality)
 			if err != nil {
 				log.Println("Failed to fetch RSS feed")
 				break
